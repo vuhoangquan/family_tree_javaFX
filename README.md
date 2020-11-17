@@ -6,7 +6,7 @@ This program shows a family tree view of all member and their relationship to ea
 The program will show an empty tree when started and can add a sample data with a quick button for fast viewing and testing. If the tree is empty, from edit tab, the new person will be added as root, otherwise the new person must have relation to existing person. The tree can export and import data from file (in ArrayList<person> type, save in a .dat file). Each file contain data for 1 family tree. If multiple family tree needs to be saved, then the files must be created manually before it can be saved by the program. The program can read or write data to a chosen file at any location. 
 
 # User guide
-	The program can be run from “As2ict373.java” file which contain the main. The program was created with NetBeans using JavaFX therefore is should work by import these file to a new project, then select “run file” inside “As2ict373.java” by right-click. Data file for save or read to the program must be in “.dat” format. The “.dat” data file should not be manually modified, or it may corrupt the data. “.dat” does not need to be added into project.
+The program can be run from “As2ict373.java” file which contain the main. The program was created with NetBeans using JavaFX therefore is should work by import these file to a new project, then select “run file” inside “As2ict373.java” by right-click. Data file for save or read to the program must be in “.dat” format. The “.dat” data file should not be manually modified, or it may corrupt the data. “.dat” does not need to be added into project.
 
 # Structure and design
 ## Class diagram (open with StarUML): 
