@@ -13,27 +13,27 @@ The program can be run from “As2ict373.java” file which contain the main. Th
 familyTreeClassDesign.mdj 
 This program has 2 classes and a main. the personHandler class taking care of UI and I/O to the person class. Main() will call instance of personHandler class. Main class (As2ict373.java) handle design and arrangement of the tabs and buttons location as well as action when click on these button or label. Person class contain basic information of 1 person and pointers as relation to other people (1 pointer for spouse, 1 for father, 1 for mother and an Array List for children(s). When a new person is added, every immediate relative to this person will change their relation accordingly. 
 ## Function calls: 
-*	As2ict373.java
-	  start(Stage topView) 
-  	  createUI(topView)
-•	      createPersonTree(new ArrayList<>())
-o	        showPersonInfo(event, treeView)
-•	      createViewUI(topView)
-o	        clickLoadSample()
-            getSample()
-o	        clickSaveToFile(topView)
-            fileChooserDialogWindow(topView, message)
-o	        clickReadFromFile(topView)
-          	fileChooserDialogWindow(topView, message)
-          	reloadTreeView()
-•     	createEditUI()
-o	        doClick(evt)
-          	reloadTreeView
-•	personHandler.java
-o	  generateFamilyTree()
-    	familyTreeUI()
-•	      has1ChildAndIsCallingPerson()
-•	person.java
+* As2ict373.java
+*  start(Stage topView) 
+*    createUI(topView)
+*      createPersonTree(new ArrayList<>())
+*        showPersonInfo(event, treeView)
+*      createViewUI(topView)
+*        clickLoadSample()
+*          getSample()
+*        clickSaveToFile(topView)
+*          fileChooserDialogWindow(topView, message)
+*        clickReadFromFile(topView)
+*          fileChooserDialogWindow(topView, message)
+*            reloadTreeView()
+*      createEditUI()
+*         doClick(evt)
+*           reloadTreeView
+* personHandler.java
+*   generateFamilyTree()
+*     familyTreeUI()
+*       has1ChildAndIsCallingPerson()
+* person.java
 
 createPersonTree function will return a nested TreeItem type for ViewTab.
 showPersonInfo() run when clicked on a person in the TreeView (can click on text or spaces next to it)
